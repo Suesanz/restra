@@ -1,0 +1,116 @@
+:root {
+    --gutter: 2rem;
+    --half-gutter: calc( var(--gutter) / 2 );
+    --tab-list-bg: #4caf50 ;
+    --tab-color: white;
+    --tab-bg: transparent;
+}
+
+
+
+.tabs input:nth-of-type(1):checked ~ section:nth-of-type(1) {
+    display: block;
+}
+.tabs input:nth-of-type(1):checked ~ .tabs__list label:nth-of-type(1) {
+    --tab-color: var(--tab-list-bg);
+    --tab-bg: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.tabs input:nth-of-type(2):checked ~ section:nth-of-type(2) {
+    display: block;
+}
+.tabs input:nth-of-type(2):checked ~ .tabs__list label:nth-of-type(2) {
+    --tab-color: var(--tab-list-bg);
+    --tab-bg: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.tabs input:nth-of-type(3):checked ~ section:nth-of-type(3) {
+    display: block;
+}
+.tabs input:nth-of-type(3):checked ~ .tabs__list label:nth-of-type(3) {
+    --tab-color: var(--tab-list-bg);
+    --tab-bg: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.tabs input:nth-of-type(4):checked ~ section:nth-of-type(4) {
+    display: block;
+}
+.tabs input:nth-of-type(4):checked ~ .tabs__list label:nth-of-type(4) {
+    --tab-color: var(--tab-list-bg);
+    --tab-bg: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.tabs input:nth-of-type(5):checked ~ section:nth-of-type(5) {
+    display: block;
+}
+.tabs input:nth-of-type(5):checked ~ .tabs__list label:nth-of-type(5) {
+    --tab-color: var(--tab-list-bg);
+    --tab-bg: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.tabs input:nth-of-type(6):checked ~ section:nth-of-type(6) {
+    display: block;
+}
+.tabs input:nth-of-type(6):checked ~ .tabs__list label:nth-of-type(6) {
+    --tab-color: var(--tab-list-bg);
+    --tab-bg: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.tabs input:nth-of-type(7):checked ~ section:nth-of-type(7) {
+    display: block;
+}
+.tabs input:nth-of-type(7):checked ~ .tabs__list label:nth-of-type(7) {
+    --tab-color: var(--tab-list-bg);
+    --tab-bg: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.tabs input:nth-of-type(8):checked ~ section:nth-of-type(8) {
+    display: block;
+}
+.tabs input:nth-of-type(8):checked ~ .tabs__list label:nth-of-type(8) {
+    --tab-color: var(--tab-list-bg);
+    --tab-bg: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.tabs input:nth-of-type(9):checked ~ section:nth-of-type(9) {
+    display: block;
+}
+.tabs input:nth-of-type(9):checked ~ .tabs__list label:nth-of-type(9) {
+    --tab-color: var(--tab-list-bg);
+    --tab-bg: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.tabs input:nth-of-type(10):checked ~ section:nth-of-type(10) {
+    display: block;
+}
+.tabs input:nth-of-type(10):checked ~ .tabs__list label:nth-of-type(10) {
+    --tab-color: var(--tab-list-bg);
+    --tab-bg: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.tabs__input {
+    display: none;
+}
+.tabs__list {
+    background: var(--tab-list-bg);
+    color: white;
+    display: flex;
+    padding: var(--gutter) var(--gutter) 0;
+}
+.tabs__list_tab {
+    flex: 1 1;
+    text-align: center;
+    padding: var(--half-gutter) var(--half-gutter);
+    background: var(--tab-bg);
+    color: var(--tab-color);
+    text-transform: uppercase;
+}
+.tabs__panel {
+    display: none;
+    padding: var(--gutter);
+    text-align: center;
+    font-size: 2rem;
+}
+#tab{
+    margin-top: 3cm;
+}

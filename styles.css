@@ -1,0 +1,109 @@
+#navbarSupportedContent {
+    margin-left: 45%;
+    font-family: 'Roboto Slab', serif;
+}
+
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#oncontent {
+
+    line-height: 72px;
+    font-size: 80px;
+    font-family: 'Titan One', cursive;
+    z-index: auto;
+
+}
+
+#homeaboutcontent {
+    margin-bottom: 10%;
+}
+
+#card1 {
+    margin-top: 10px;
+}
+
+#icons {
+    margin-left: 35em;
+}
+
+#h5 {
+    margin-left: 40em;
+    margin-top: 30px;
+    margin-bottom: 1cm;
+    font-family: 'Titan One', cursive;
+}
+
+#submit {
+    margin-left: 41em;
+}
+
+#input1 {
+    margin-left: 40em;
+    width: 19em;
+}
+
+#div2 {
+    margin-left: 35em;
+}
+
+#eat {
+    /*margin-top: 1cm;*/
+    margin-left: 8cm;
+    font-family: 'Titan One', cursive;
+}
+
+#eatcontent {
+    /*margin-top: 2cm;*/
+    margin-left: 5cm;
+    line-height: 2.5em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.card-title {
+    font-family: 'Titan One', cursive;
+}
+
+.card-text {
+    font-family: 'Roboto Slab', serif;
+    line-height: .9cm;
+}
+
+#clean {
+    background-color: #bbdefb;
+
+}
+
+#slim {
+    background-color: #e6ee9c;
+}
+
+#bulk {
+    background-color: #ffcc80;
+}
+
+#gluten {
+    background-color: #f48fb1;
+}
+
+#food {
+    margin-left: 4cm;
+    width: 1280px;
+    height: 640px;
+}
+#cb{
+    margin-top: 2cm;
+}
+#sb{
+    margin-top: 0.8cm;
+}
+#gb{
+    margin-top: 0.8cm;
+    width: 5cm;
+}
+
+

@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+
+    <script src="https://use.fontawesome.com/17c7962084.js"></script>
+    <link href="button.css" rel="stylesheet">
+    <link rel="stylesheet" href="howitworks.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+    <link href="tabpill.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Titan+One" rel="stylesheet">
+</head>
+<body>
+
+
+<!--/////Nav-->
+<nav class="navbar navbar-expand-lg navbar-light nav-justify-content-end bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="./pics/logo_freshii-mealbox-desktop.png" width="278" height="65" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="howitworks.html">HOW IT WORKS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="boxes.html">BOXES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="faq.html">F.A.Q</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="fitnesspro.html">FITNESS PROS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="contact.html">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--/////////-->
+<!---->
+
+<div class="tabs" id="tab">
+    <input class="tabs__input" id="tab-1" name="tab" type="radio" checked="checked"/>
+    <input class="tabs__input" id="tab-2" name="tab" type="radio"/>
+    <input class="tabs__input" id="tab-3" name="tab" type="radio"/>
+    <header class="tabs__list">
+        <label class="tabs__list_tab" for="tab-1">Clean Box</label>
+        <label class="tabs__list_tab"
+               for="tab-2">Bulk Box</label>
+        <label class="tabs__list_tab" for="tab-3">Slim Box</label></header>
+    <section class="tabs__panel">
+        <div class="card-deck" id="deck">
+            <div class="card" id="card1">
+                <img class="card" src="pics/clean-box-img.jpg">
+
+            </div>
+            <!-- Card deck -->
+            <!--//////////-->
+
+            <!--Accordion wrapper-->
+            <div class="accordion" role="tablist" aria-multiselectable="true" id="card2">
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingOne">
+                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h5 class="mb-0" data-toggle="collapse" data-target="#collapseOne">
+                                OPTION #1 <i class="fa fa-angle-down rotate-icon"></i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne"
+                         data-parent="#accordionEx">
+                        <div class="card-body" id="contentclean">
+
+                            <strong> Spinach, Mushroom & Cheese Breakfast Bowl - Breakfast</strong><br>
+                            eggs, spinach, mushrooms, roasted red peppers, goat cheese
+                            <br> <strong> Veggie Cup - Snack</strong><br>
+                            cucumber, celery, cherry tomatoes, greek yogurt ranch
+                            <br> <strong>Zen Salad + Tofu - Lunch</strong><br>
+                            spinach, romaine, tofu, edamame, cabbage, broccoli, carrots, mango, sesame seeds, asian sesame
+                            dressing
+                            <br> <strong>Apple & Walnuts - Snack</strong><br>
+                            <strong>Southwestern Soup + Chicken - Dinner</strong><br>
+                            chicken broth, brown rice, chicken, aged cheddar, broccoli, tomatoes, corn, black beans
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingTwo">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false"
+                           aria-controls="collapseTwo">
+                            <h5 class="mb-0" data-toggle="collapse" data-target="#collapseOne">
+                                OPTION #2 <i class="fa fa-angle-down rotate-icon"></i>
+                            </h5>
+
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo"
+                         data-parent="#accordionEx">
+                        <div class="card-body">
+
+                            <br> <strong>Hard Boiled Eggs & Mighty Detox Juice - Breakfast</strong><br>
+                            two hard boiled eggs
+                            mighty detox juice: pineapple, green apple, celery, cucumber, ginger
+                            <br> <strong>Village Salad - Snack</strong><br>
+                            cucumbers, tomatoes, kalamata olives, feta cheese, cilantro lime vinaigrette
+                            <br> <strong>Buffalo Salad + Chicken - Lunch</strong><br>
+                            romaine, chicken, blue cheese, cherry tomatoes, carrots, celery, greek yogurt ranch, buffalo sauce
+                            <br> <strong>Fruit Cup - Snack</strong><br>
+                            pineapple, strawberries, mango
+                            <br> <strong>Khao San Quinoa Bowl + Tofu - Dinner</strong><br>
+                            quinoa, spinach, tofu, edamame, mushrooms, carrots, cabbage, almonds, spicy lemongrass sauce
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingThree">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false"
+                           aria-controls="collapseThree">
+                            <h5 class="mb-0" data-toggle="collapse" data-target="#collapseTwo">
+                                OPTION #3 <i class="fa fa-angle-down rotate-icon"></i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree"
+                         data-parent="#accordionEx">
+                        <div class="card-body">
+
+                            <br> <strong> Greek Yogurt & Fruit - Breakfast</strong><br>
+                            greek yogurt, pineapple, strawberries, mango
+                            <br> <strong> Bean & Corn Salad - Snack</strong><br>
+                            black beans, edamame, corn, cherry tomatoes, cilantro lime vinaigrette
+                            <br> <strong> Metaboost Salad + Chicken - Lunch</strong><br>
+                            spinach, kale, field greens, chicken, goat cheese, mango, almonds, carrots, edamame, balsamic
+                            vinaigrette
+                            <br> <strong> Veggie Cup - Snack</strong><br>
+                            cucumber, celery, cherry tomatoes, greek yogurt ranch
+                            <br> <strong> Mediterranean Bowl + Chicken - Dinner</strong><br>
+                            quinoa, field greens, chicken, feta cheese, kalamata olives, almonds, red onions, cucumber, roasted
+                            red peppers, tomatoes, cilantro, red pepper sauce
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion card -->
+            </div>
+            <!--/.Accordion wrapper-->
+        </div>
+    </section>
+    <section class="tabs__panel">
+        <div class="card-deck" id="deck">
+            <div class="card" id="card1">
+                <img class="card" src="pics/bulk-box-img.jpg">
+
+            </div>
+            <!-- Card deck -->
+            <!--//////////-->
+
+            <!--Accordion wrapper-->
+            <div class="accordion" role="tablist" aria-multiselectable="true" id="card2">
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingOne">
+                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h5 class="mb-0" data-toggle="collapse" data-target="#collapseOne">
+                                OPTION #1 <i class="fa fa-angle-down rotate-icon"></i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne"
+                         data-parent="#accordionEx">
+                        <div class="card-body" id="contentclean">
+
+                            <strong> Spinach, Mushroom & Cheese Breakfast Bowl - Breakfast</strong><br>
+                            eggs, spinach, mushrooms, roasted red peppers, goat cheese
+                            <br> <strong> Veggie Cup - Snack</strong><br>
+                            cucumber, celery, cherry tomatoes, greek yogurt ranch
+                            <br> <strong>Zen Salad + Tofu - Lunch</strong><br>
+                            spinach, romaine, tofu, edamame, cabbage, broccoli, carrots, mango, sesame seeds, asian sesame
+                            dressing
+                            <br> <strong>Apple & Walnuts - Snack</strong><br>
+                            <strong>Southwestern Soup + Chicken - Dinner</strong><br>
+                            chicken broth, brown rice, chicken, aged cheddar, broccoli, tomatoes, corn, black beans
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingTwo">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false"
+                           aria-controls="collapseTwo">
+                            <h5 class="mb-0" data-toggle="collapse" data-target="#collapseOne">
+                                OPTION #2 <i class="fa fa-angle-down rotate-icon"></i>
+                            </h5>
+
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo"
+                         data-parent="#accordionEx">
+                        <div class="card-body">
+
+                            <br> <strong>Hard Boiled Eggs & Mighty Detox Juice - Breakfast</strong><br>
+                            two hard boiled eggs
+                            mighty detox juice: pineapple, green apple, celery, cucumber, ginger
+                            <br> <strong>Village Salad - Snack</strong><br>
+                            cucumbers, tomatoes, kalamata olives, feta cheese, cilantro lime vinaigrette
+                            <br> <strong>Buffalo Salad + Chicken - Lunch</strong><br>
+                            romaine, chicken, blue cheese, cherry tomatoes, carrots, celery, greek yogurt ranch, buffalo sauce
+                            <br> <strong>Fruit Cup - Snack</strong><br>
+                            pineapple, strawberries, mango
+                            <br> <strong>Khao San Quinoa Bowl + Tofu - Dinner</strong><br>
+                            quinoa, spinach, tofu, edamame, mushrooms, carrots, cabbage, almonds, spicy lemongrass sauce
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingThree">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false"
+                           aria-controls="collapseThree">
+                            <h5 class="mb-0" data-toggle="collapse" data-target="#collapseTwo">
+                                OPTION #3 <i class="fa fa-angle-down rotate-icon"></i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree"
+                         data-parent="#accordionEx">
+                        <div class="card-body">
+
+                            <br> <strong> Greek Yogurt & Fruit - Breakfast</strong><br>
+                            greek yogurt, pineapple, strawberries, mango
+                            <br> <strong> Bean & Corn Salad - Snack</strong><br>
+                            black beans, edamame, corn, cherry tomatoes, cilantro lime vinaigrette
+                            <br> <strong> Metaboost Salad + Chicken - Lunch</strong><br>
+                            spinach, kale, field greens, chicken, goat cheese, mango, almonds, carrots, edamame, balsamic
+                            vinaigrette
+                            <br> <strong> Veggie Cup - Snack</strong><br>
+                            cucumber, celery, cherry tomatoes, greek yogurt ranch
+                            <br> <strong> Mediterranean Bowl + Chicken - Dinner</strong><br>
+                            quinoa, field greens, chicken, feta cheese, kalamata olives, almonds, red onions, cucumber, roasted
+                            red peppers, tomatoes, cilantro, red pepper sauce
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion card -->
+            </div>
+            <!--/.Accordion wrapper-->
+        </div>
+    </section>
+    <section class="tabs__panel">
+        <div class="card-deck" id="deck">
+            <div class="card" id="card1">
+                <img class="card" src="pics/slim-box-2.jpg">
+
+            </div>
+            <!-- Card deck -->
+            <!--//////////-->
+
+            <!--Accordion wrapper-->
+            <div class="accordion" role="tablist" aria-multiselectable="true" id="card2">
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingOne">
+                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h5 class="mb-0" data-toggle="collapse" data-target="#collapseOne">
+                                OPTION #1 <i class="fa fa-angle-down rotate-icon"></i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne"
+                         data-parent="#accordionEx">
+                        <div class="card-body" id="contentclean">
+
+                            <strong> Spinach, Mushroom & Cheese Breakfast Bowl - Breakfast</strong><br>
+                            eggs, spinach, mushrooms, roasted red peppers, goat cheese
+                            <br> <strong> Veggie Cup - Snack</strong><br>
+                            cucumber, celery, cherry tomatoes, greek yogurt ranch
+                            <br> <strong>Zen Salad + Tofu - Lunch</strong><br>
+                            spinach, romaine, tofu, edamame, cabbage, broccoli, carrots, mango, sesame seeds, asian sesame
+                            dressing
+                            <br> <strong>Apple & Walnuts - Snack</strong><br>
+                            <strong>Southwestern Soup + Chicken - Dinner</strong><br>
+                            chicken broth, brown rice, chicken, aged cheddar, broccoli, tomatoes, corn, black beans
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingTwo">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false"
+                           aria-controls="collapseTwo">
+                            <h5 class="mb-0" data-toggle="collapse" data-target="#collapseOne">
+                                OPTION #2 <i class="fa fa-angle-down rotate-icon"></i>
+                            </h5>
+
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo"
+                         data-parent="#accordionEx">
+                        <div class="card-body">
+
+                            <br> <strong>Hard Boiled Eggs & Mighty Detox Juice - Breakfast</strong><br>
+                            two hard boiled eggs
+                            mighty detox juice: pineapple, green apple, celery, cucumber, ginger
+                            <br> <strong>Village Salad - Snack</strong><br>
+                            cucumbers, tomatoes, kalamata olives, feta cheese, cilantro lime vinaigrette
+                            <br> <strong>Buffalo Salad + Chicken - Lunch</strong><br>
+                            romaine, chicken, blue cheese, cherry tomatoes, carrots, celery, greek yogurt ranch, buffalo sauce
+                            <br> <strong>Fruit Cup - Snack</strong><br>
+                            pineapple, strawberries, mango
+                            <br> <strong>Khao San Quinoa Bowl + Tofu - Dinner</strong><br>
+                            quinoa, spinach, tofu, edamame, mushrooms, carrots, cabbage, almonds, spicy lemongrass sauce
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion card -->
+
+                <!-- Accordion card -->
+                <div class="card">
+
+                    <!-- Card header -->
+                    <div class="card-header" role="tab" id="headingThree">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false"
+                           aria-controls="collapseThree">
+                            <h5 class="mb-0" data-toggle="collapse" data-target="#collapseTwo">
+                                OPTION #3 <i class="fa fa-angle-down rotate-icon"></i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree"
+                         data-parent="#accordionEx">
+                        <div class="card-body">
+
+                            <br> <strong> Greek Yogurt & Fruit - Breakfast</strong><br>
+                            greek yogurt, pineapple, strawberries, mango
+                            <br> <strong> Bean & Corn Salad - Snack</strong><br>
+                            black beans, edamame, corn, cherry tomatoes, cilantro lime vinaigrette
+                            <br> <strong> Metaboost Salad + Chicken - Lunch</strong><br>
+                            spinach, kale, field greens, chicken, goat cheese, mango, almonds, carrots, edamame, balsamic
+                            vinaigrette
+                            <br> <strong> Veggie Cup - Snack</strong><br>
+                            cucumber, celery, cherry tomatoes, greek yogurt ranch
+                            <br> <strong> Mediterranean Bowl + Chicken - Dinner</strong><br>
+                            quinoa, field greens, chicken, feta cheese, kalamata olives, almonds, red onions, cucumber, roasted
+                            red peppers, tomatoes, cilantro, red pepper sauce
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion card -->
+            </div>
+            <!--/.Accordion wrapper-->
+        </div>
+    </section>
+</div>
+<!---->
+<!--///Clean Box-->
+
+<!--//////////////-->
+<div>
+    <div id="h5">
+        <h3>
+            <strong>Be in the know</strong>
+        </h3>
+    </div>
+    <div id="div2">
+        Sign up to get meal planning hacks, exclusive offers and more.
+        <p></p>
+    </div>
+    <div class="input-group input-group-sm mb-3" id="input1">
+        <label>
+            <input type="text" placeholder="example@mail.com" class="form-control"
+                   aria-describedby="inputGroup-sizing-sm">
+        </label>
+
+    </div>
+
+</div>
+
+<div id="submit">
+    <section class="buttons">
+
+        <div class="container">
+
+            <a href="https://twitter.com/Dave_Conner" class="btn btn-dark">
+
+                Submit
+            </a>
+        </div>
+    </section>
+</div>
+<!---->
+<!--///////////-->
+
+
+<!--Footer-->
+<footer class="page-footer font-small indigo pt-0">
+
+    <!--Footer Links-->
+    <div class="container" id="icons">
+
+        <!--First row-->
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-md-12 py-5">
+
+                <div class="mb-12 flex-center">
+
+                    <!--Facebook-->
+                    <a class="fb-ic">
+                        <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Twitter-->
+                    <a class="tw-ic">
+                        <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Google +-->
+                    <a class="gplus-ic">
+                        <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Linkedin-->
+                    <a class="li-ic">
+                        <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic">
+                        <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Pinterest-->
+                    <a class="pin-ic">
+                        <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+                    </a>
+                </div>
+            </div>
+            <!--/First column-->
+        </div>
+        <!--/First row-->
+    </div>
+    <!--/Footer Links-->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3 text-center">
+        © 2018 Copyright
+    </div>
+    <!--/Copyright-->
+
+</footer>
+<!--/Footer-->
+
+
+</body>
+</html>

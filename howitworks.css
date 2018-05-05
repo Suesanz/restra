@@ -1,0 +1,61 @@
+#navbarSupportedContent {
+    margin-left: 45%;
+    font-family: 'Roboto Slab', serif;
+}
+
+.card-deck {
+
+}
+
+#card1 {
+    margin-left: 1cm;
+    display: inline-block;
+    margin-top: 3cm;
+    height: 0rem;
+
+    /*position: revert;*/
+}
+
+h5 {
+    color: blueviolet;
+}
+
+#card2 {
+    margin-left: 2cm;
+    display: inline-block;
+    width: 47rem;
+    height: 52rem;
+    margin-top: 3cm;
+    margin-right: 1cm;
+    background-image: url("pics/clean-box-img.jpg");
+    backface-visibility: revert;
+    line-height: 1cm;
+}
+
+#h5 {
+    margin-left: 40em;
+    margin-top: 50px;
+    margin-bottom: 1cm;
+    font-family: 'Titan One', cursive;
+}
+
+
+
+#icons {
+    margin-left: 38em;
+}
+
+#submit {
+    margin-left: 41em;
+}
+
+#input1 {
+    margin-left: 40em;
+    width: 19em;
+}
+
+#div2 {
+    margin-left: 35em;
+    /*line-height: 3cm;*/
+
+}
