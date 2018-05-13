@@ -8,7 +8,7 @@
 .container {
     /*margin: 0 auto;*/
     padding: 4rem;
-    margin-top: 1.5cm;
+    /*margin-top: 1.5cm;*/
     width: 60rem;
 }
 
@@ -111,7 +111,8 @@ h3 {
 }
 
 #icons {
-    margin-left: 17em;
+    margin-left: 35rem;
+    height: 3cm;
 }
 
 #submit1 {
