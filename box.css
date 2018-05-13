@@ -9,7 +9,10 @@ h5 {
     margin-left: 3cm;
 
 }
+html, body {
 
+    overflow-x: hidden;
+}
 #img1 {
     display: inline-block;
     margin-right:1cm ;

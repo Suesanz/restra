@@ -11,7 +11,10 @@
     /*margin-top: 1.5cm;*/
     width: 60rem;
 }
+html, body {
 
+    overflow-x: hidden;
+}
 h2 {
     margin-top: 3cm;
     margin-left: 14cm;

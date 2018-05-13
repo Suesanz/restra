@@ -121,7 +121,10 @@ textarea {
         text-align:center;
     }
 }
+html, body {
 
+    overflow-x: hidden;
+}
 input[type=checkbox] + label {
     /*color: #ccc;*/
     font-style: italic;

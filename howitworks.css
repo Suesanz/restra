@@ -39,7 +39,10 @@ h5 {
     font-family: 'Titan One', cursive;
 }
 
+html, body {
 
+    overflow-x: hidden;
+}
 
 #icons {
     margin-left: 38em;
