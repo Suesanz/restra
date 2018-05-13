@@ -3,6 +3,11 @@
     font-family: 'Roboto Slab', serif;
 }
 
+html, body {
+
+    overflow-x: hidden;
+}
+
 .centered {
     position: absolute;
     top: 70%;
@@ -95,19 +100,22 @@
     width: 1280px;
     height: 640px;
 }
-#cb{
+
+#cb {
     margin-top: 2cm;
 }
-#sb{
+
+#sb {
     margin-top: 0.8cm;
 }
-#gb{
+
+#gb {
     margin-top: 0.8cm;
     width: 5cm;
 }
 
-@media screen and (max-width: 575.98px){
-    .centered{
+@media screen and (max-width: 575.98px) {
+    .centered {
         font-size: 40px;
     }
 }
