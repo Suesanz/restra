@@ -106,5 +106,9 @@
     width: 5cm;
 }
 
-
+@media screen and (max-width: 575.98px){
+    .centered{
+        font-size: 40px;
+    }
+}
 
